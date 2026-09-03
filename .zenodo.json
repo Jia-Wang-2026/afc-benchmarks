@@ -1,0 +1,23 @@
+{
+  "title": "Benchmark configurations, flow-field data and trained policies for learned active flow control",
+  "upload_type": "dataset",
+  "description": "Reproducible case definitions, reference flow-field data and trained control policies for the bluff-body active-flow-control benchmarks (circular, square and elliptical bodies, Re = 100-2000), supporting independent reproduction and reuse.",
+  "creators": [
+    {
+      "name": "Jia, Wang",
+      "orcid": "0009-0008-2786-397X",
+      "affiliation": "Shanghai Jiao Tong University"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "benchmark",
+    "active flow control",
+    "reinforcement learning",
+    "bluff body",
+    "flow-field data",
+    "trained policies",
+    "reproducibility"
+  ],
+  "access_right": "open"
+}

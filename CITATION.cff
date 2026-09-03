@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Benchmark configurations, flow-field data and trained policies for learned active flow control"
+abstract: "Reproducible case definitions, reference flow-field data and trained control policies for the bluff-body active-flow-control benchmarks (circular, square and elliptical bodies, Re = 100-2000), supporting independent reproduction and reuse."
+type: software
+authors:
+  - family-names: Jia
+    given-names: Wang
+    orcid: "https://orcid.org/0009-0008-2786-397X"
+    affiliation: "Shanghai Jiao Tong University"
+version: 0.1.0
+license: CC-BY-4.0
+repository-code: "https://github.com/Jia-Wang-2026/afc-benchmarks"
+keywords:
+  - benchmark
+  - active flow control
+  - reinforcement learning
+  - bluff body
+  - flow-field data
+  - trained policies
+  - reproducibility
