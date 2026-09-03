@@ -1,0 +1,32 @@
+# Evaluation protocol template — copy to protocol/<name>.yaml.
+# Defines what "held out" means for a benchmark axis, the compute budget all
+# methods are matched against, and the quantities a submission must report.
+
+protocol_id: ""
+applies_to_cases: []            # case_id values from cases/
+
+held_out_conditions:
+  reynolds_numbers: []          # values excluded from training, used only for testing
+  geometries: []                # e.g. train on circular/square, test generalisation to elliptical
+  actuator_placements: []       # layouts withheld from training
+
+compute_budget:
+  metric: ""                    # e.g. environment steps, wall-clock hours, GPU-hours
+  limit: null
+  hardware_reference: ""        # reference hardware the budget was measured on
+
+reported_metrics:
+  - name: "drag_reduction"
+    definition: ""
+    unit: "%"
+  - name: "lift_fluctuation_suppression"
+    definition: ""
+    unit: "%"
+  - name: "actuation_energy"
+    definition: ""
+    unit: ""
+  - name: "sample_cost_to_target"
+    definition: ""              # steps/episodes to reach a stated performance threshold
+    unit: "episodes"
+
+notes: ""

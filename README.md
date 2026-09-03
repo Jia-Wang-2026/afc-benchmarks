@@ -1,5 +1,9 @@
 # afc-benchmarks
 
+[![CI](https://github.com/Jia-Wang-2026/afc-benchmarks/actions/workflows/ci.yml/badge.svg)](https://github.com/Jia-Wang-2026/afc-benchmarks/actions/workflows/ci.yml)
+[![License: CC BY 4.0](https://img.shields.io/badge/data%20licence-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/code%20licence-Apache%202.0-blue.svg)](LICENSE-CODE)
+
 **Benchmark configurations, flow-field data and trained policies for learned active flow control**
 
 Reproducible case definitions, reference flow-field data and trained control policies for
@@ -41,6 +45,13 @@ policies/          Trained policy weights per case
 data/MANIFEST.md   Zenodo record identifiers and checksums for the flow-field data
 scripts/           Download, verification and evaluation drivers
 ```
+
+`cases/`, `protocol/` and `policies/` each carry a `README.md` describing their contents,
+and `cases/TEMPLATE.yaml` / `protocol/TEMPLATE.yaml` define the schema a new entry must
+fill in. `scripts/download.py` downloads and SHA-256-verifies the files listed in
+`data/MANIFEST.md`; `scripts/validate_manifest.py` checks that the manifest and all YAML
+case/protocol files are well-formed (run in CI on every push). See
+[CONTRIBUTING.md](CONTRIBUTING.md) for the steps to add a case.
 
 ## Source publications
 

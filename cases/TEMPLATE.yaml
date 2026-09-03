@@ -1,0 +1,56 @@
+# Case definition template — copy to cases/<case_id>.yaml and fill in every field.
+# A case is complete only when a result run against it is reproducible from this
+# file alone, with no undocumented dependency on code defaults.
+
+case_id: ""              # e.g. circular_re200
+body: ""                 # circular | square | elliptical
+reynolds_number: null    # single value; for a Re-sweep case use reynolds_numbers: [ ... ]
+
+geometry:
+  characteristic_length: null   # e.g. cylinder diameter D, metres or non-dimensional
+  aspect_ratio: null            # elliptical bodies only; omit/null otherwise
+  domain:
+    upstream_length: null       # multiples of characteristic_length
+    downstream_length: null
+    lateral_extent: null
+  boundary_conditions:
+    inlet: ""                   # e.g. uniform velocity U_inf
+    outlet: ""                  # e.g. convective / zero-gradient
+    lateral: ""                 # e.g. symmetry / far-field
+    body_surface: ""            # e.g. no-slip
+
+mesh:
+  description: ""               # mesh generator / resolution strategy
+  cell_count: null
+  near_wall_resolution: null    # y+ or first-cell height
+  reference_mesh_file: ""       # path, or Zenodo DOI once deposited
+
+time_stepping:
+  scheme: ""
+  timestep: null
+  cfl_target: null
+
+actuators:
+  type: "synthetic_jet"
+  count: null
+  placement: []                  # angular positions or coordinates
+  jet_width: null
+  max_momentum_coefficient: null
+
+sensors:
+  type: ""
+  count: null
+  placement: []
+
+reward:
+  objective: ""                  # e.g. drag reduction with lift-fluctuation penalty
+  formula: ""                    # symbolic, or a reference into protocol/
+
+episode:
+  control_interval: null         # simulation time between control actions
+  episode_length: null           # steps or simulation time
+  warmup: null                   # transient discarded before control starts
+
+references:
+  publications: []               # DOIs from the README "Source publications" list
+  notes: ""

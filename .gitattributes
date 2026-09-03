@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.pt binary
+*.pth binary
+*.h5 binary
+*.npz binary
+*.vtu binary
+*.vtk binary
