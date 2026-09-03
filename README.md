@@ -55,12 +55,6 @@ case/protocol files are well-formed (run in CI on every push). See
 
 ## Source publications
 
-- Jia, W. & Xu, H. *Robust and adaptive deep reinforcement learning for enhancing flow control around a square cylinder with varying Reynolds numbers*. Physics of Fluids 36(5), 054103 (2025). [doi:10.1063/5.0207879](https://doi.org/10.1063/5.0207879)
-- Jia, W. & Xu, H. *Deep reinforcement learning-based active flow control of an elliptical cylinder: transitioning from an elliptical cylinder to a circular cylinder and a flat plate*. Physics of Fluids 36(7), 074117 (2024). [doi:10.1063/5.0218408](https://doi.org/10.1063/5.0218408)
-- Jia, W. & Xu, H. *Effect of synthetic jets actuator parameters on deep reinforcement learning-based flow control performance in a square cylinder*. Physics of Fluids 36(8), 084113 (2024) - Special Topic. [doi:10.1063/5.0220149](https://doi.org/10.1063/5.0220149)
-- Jia, W. & Xu, H. *State-augmented deep reinforcement learning for active flow control around an elliptical cylinder*. International Journal of Heat and Fluid Flow 116, 109950 (2025). [doi:10.1016/j.ijheatfluidflow.2025.109950](https://doi.org/10.1016/j.ijheatfluidflow.2025.109950)
-- Jia, W. & Xu, H. *Optimizing synthetic jet placement for control stability in increasing Reynolds number flows based on deep reinforcement learning*. International Communications in Heat and Mass Transfer 166, 109203 (2025). [doi:10.1016/j.icheatmasstransfer.2025.109203](https://doi.org/10.1016/j.icheatmasstransfer.2025.109203)
-- Jia, W. & Xu, H. *Strategies for energy-efficient flow control leveraging deep reinforcement learning*. Engineering Applications of Artificial Intelligence 156, 111125 (2025). [doi:10.1016/j.engappai.2025.111125](https://doi.org/10.1016/j.engappai.2025.111125)
 - Jia, W. & Xu, H. *Toward fully stabilized flow control using deep reinforcement learning*. Physics of Fluids 37(7), 073617 (2025). [doi:10.1063/5.0272178](https://doi.org/10.1063/5.0272178)
 - Jia, W. & Xu, H. *Vortex shedding suppression in elliptical cylinder via reinforcement learning*. International Journal of Mechanical Sciences 302, 110517 (2025). [doi:10.1016/j.ijmecsci.2025.110517](https://doi.org/10.1016/j.ijmecsci.2025.110517)
 
