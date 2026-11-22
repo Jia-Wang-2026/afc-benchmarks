@@ -18,7 +18,7 @@ reported* lives here in Git.
    `data/MANIFEST.md` with the record ID, file names, sizes and SHA-256 checksums, then
    verify with:
 
-   ```
+   ```sh
    python scripts/download.py --case <case_id> --verify-only
    ```
 

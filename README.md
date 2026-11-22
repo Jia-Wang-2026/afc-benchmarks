@@ -4,7 +4,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/data%20licence-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/code%20licence-Apache%202.0-blue.svg)](LICENSE-CODE)
 
-**Benchmark configurations, flow-field data and trained policies for learned active flow control**
+**Benchmark configurations, flow-field data and trained policies for learned active flow control.**
 
 Reproducible case definitions, reference flow-field data and trained control policies for
 the bluff-body active-flow-control benchmarks used across the publications listed below:
@@ -38,7 +38,7 @@ lift-fluctuation suppression, actuation energy and sample cost to a target perfo
 
 ## Intended layout at v1.0
 
-```
+```text
 cases/             Case definitions (geometry, mesh, actuators, sensors, reward)
 protocol/          Evaluation protocol and held-out condition sets
 policies/          Trained policy weights per case
