@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below."
+message: "If you use these benchmarks, please cite the article given under preferred-citation, and the article under references when you use the elliptical-cylinder cases."
 title: "Benchmark configurations, flow-field data and trained policies for learned active flow control"
 abstract: "Reproducible case definitions, reference flow-field data and trained control policies for the bluff-body active-flow-control benchmarks (circular, square and elliptical bodies, Re = 100-2000), supporting independent reproduction and reuse."
 type: software
@@ -8,6 +8,7 @@ authors:
     given-names: Wang
     orcid: "https://orcid.org/0009-0008-2786-397X"
     affiliation: "Shanghai Jiao Tong University"
+    website: "https://jia-wang-2026.github.io/"
 version: 0.1.0
 license: CC-BY-4.0
 repository-code: "https://github.com/Jia-Wang-2026/afc-benchmarks"
@@ -19,3 +20,34 @@ keywords:
   - flow-field data
   - trained policies
   - reproducibility
+preferred-citation:
+  type: article
+  title: "Toward fully stabilized flow control using deep reinforcement learning"
+  authors:
+    - family-names: Jia
+      given-names: Wang
+      orcid: "https://orcid.org/0009-0008-2786-397X"
+    - family-names: Xu
+      given-names: Hang
+  journal: "Physics of Fluids"
+  volume: 37
+  issue: 7
+  start: "073617"
+  year: 2025
+  doi: "10.1063/5.0272178"
+  url: "https://doi.org/10.1063/5.0272178"
+references:
+  - type: article
+    title: "Vortex shedding suppression in elliptical cylinder via reinforcement learning"
+    authors:
+      - family-names: Jia
+        given-names: Wang
+        orcid: "https://orcid.org/0009-0008-2786-397X"
+      - family-names: Xu
+        given-names: Hang
+    journal: "International Journal of Mechanical Sciences"
+    volume: 302
+    start: "110517"
+    year: 2025
+    doi: "10.1016/j.ijmecsci.2025.110517"
+    url: "https://doi.org/10.1016/j.ijmecsci.2025.110517"

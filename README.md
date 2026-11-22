@@ -58,6 +58,38 @@ case/protocol files are well-formed (run in CI on every push). See
 - Jia, W. & Xu, H. *Toward fully stabilized flow control using deep reinforcement learning*. Physics of Fluids 37(7), 073617 (2025). [doi:10.1063/5.0272178](https://doi.org/10.1063/5.0272178)
 - Jia, W. & Xu, H. *Vortex shedding suppression in elliptical cylinder via reinforcement learning*. International Journal of Mechanical Sciences 302, 110517 (2025). [doi:10.1016/j.ijmecsci.2025.110517](https://doi.org/10.1016/j.ijmecsci.2025.110517)
 
+## How to cite
+
+If you use these benchmarks, please cite the source publication for the cases you use:
+
+```bibtex
+@article{jia2025toward,
+  author  = {Jia, Wang and Xu, Hang},
+  title   = {Toward fully stabilized flow control using deep reinforcement learning},
+  journal = {Physics of Fluids},
+  volume  = {37},
+  number  = {7},
+  pages   = {073617},
+  year    = {2025},
+  doi     = {10.1063/5.0272178}
+}
+
+@article{jia2025vortex,
+  author  = {Jia, Wang and Xu, Hang},
+  title   = {Vortex shedding suppression in elliptical cylinder via reinforcement learning},
+  journal = {International Journal of Mechanical Sciences},
+  volume  = {302},
+  pages   = {110517},
+  year    = {2025},
+  doi     = {10.1016/j.ijmecsci.2025.110517}
+}
+```
+
+Please additionally cite the data release once v1.0 carries a Zenodo DOI.
+Machine-readable metadata is in [`CITATION.cff`](CITATION.cff); GitHub's *Cite this
+repository* button exports it as BibTeX or APA. The full publication list, with open PDFs,
+is at <https://jia-wang-2026.github.io/>.
+
 ## Licence
 
 Data and case definitions: Creative Commons Attribution 4.0 International
